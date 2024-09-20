@@ -1,0 +1,141 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-color: #f6f8fa;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+h1{
+    text-align: center;
+    width: 100%;
+    padding: 10px;
+    font-weight: bold;
+    color: blue;
+}
+main{
+    margin: 0;
+    background-color: #fff;
+    padding: 0;
+    height: 90vh;
+}
+header{
+    background-color: rgb(133, 183, 59);
+    padding: 0;
+    color: #fff;
+    margin: 10px 0;
+}
+#links{
+    padding: 10px 0;
+}
+#links ul{
+    list-style: none;
+    text-decoration: none;
+    text-align: right;
+}
+#links ul li{
+    display: inline;
+    margin: 0px 5px;
+    padding: 10px 2px;
+}
+#links ul li a{
+    text-decoration: none;
+    background-color: #f6f8fa;
+    color: rgb(67, 82, 249);
+    border-radius: 4px;
+    padding: 8px 16px;
+    margin: 10px;
+    cursor: pointer;
+    font-weight: bold;
+    border: none;
+}
+#links ul li a:hover{
+    cursor: pointer;
+    color: #fff;
+    background-color: blue;
+}
+#links ul li i{
+    padding: 0 6px;
+    margin-right: 6px;
+}
+.mid{
+    align-items: center;
+    text-align: center;
+    margin: 15px 10px;
+    padding: 30px 20px;
+}
+h3{
+    font-weight: bold;
+    color: blue;
+    font-size: 20px;
+}
+p{
+    padding: 0px 10px;
+    margin-bottom: 40px;
+    font-size: 20px;
+}
+.cta-button{
+    background-color: blue;
+    padding: 10px 20px;
+    margin: 20px 30px;
+    text-decoration: none;
+    border-radius: 4px;
+    color: #fff;
+}
+.cta-button:hover{
+    cursor: pointer;
+    color: blue;
+    background-color: #fff; 
+}
+footer {
+    background: rgb(133, 183, 59);
+    color: whitesmoke;
+    text-align: center;
+    padding: 0;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}
+#icons{
+    text-align: left;
+    padding-left: 900px;
+    position: absolute;
+    bottom: 20px;
+
+}
+.social-icon{
+    color: rgb(71, 21, 223);
+    text-decoration: none;
+    margin: 0 10px;
+    padding: 5px 5px;
+    font-size: 1.2em;
+    transition: color 0.3s;
+    
+}
+.social-icon:hover {
+    color: #eee9e7;
+}
+#scrol{
+bottom: 30px;
+margin-top: 20px;
+}
+#scrol ul{
+    text-decoration: none;
+    list-style: none;
+    display: inline;
+    text-align: left;
+}
+#scrol ul li{
+    display: inline;
+    padding: 10px 0px;
+   
+}
+#scrol ul li a{
+    text-decoration: none;
+    padding: 10px 15px;
+    margin: 20px 10px;
+    
+   
+}
+a:hover{
+    color: #fff;
+    cursor: pointer;
+}
