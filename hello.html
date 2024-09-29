@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1 id="hey">hello</h1>
+    <p id="dem"></p>
+    <p id="ffs"></p>
+    <p id="ff"></p>
+    <p id="demo"></p>
+    <button type="button" onclick="document.getElementById('hey').style.display='none'">Click me</button>
+    <button type="button" onclick="dis()">Click me</button>
+   
+
+    <script>
+        //var b = 2;
+        //var c = "3";
+        //var d = b+c;
+        //var g = c==b
+        //const per ={
+           // firstname: 'hello',
+        //}
+        //var r = per.firstname;
+        //document.getElementById('dem').innerHTML = "the value of d is: " + d +"<br>"+ g + "is" + r;
+        //document.getElementById('hey').innerHTML ="hello";
+        //function dis(){
+            //document.getElementById('hey').style.color ="red";   
+        //}
+        
+        function add(a,b){
+            return a+ b;
+        }
+        document.getElementById('hey').innerHTML = add(2,3);
+        function greet(name){
+            return `how are you ${name}`;
+
+        }
+        document.getElementById('dem').innerHTML= greet("victor");
+
+        function clac(a,b){
+            var mul = a*b;
+            var add = a+b;
+            document.getElementById('hey').innerHTML = mul;
+            document.getElementById('hey').innerHTML = add;
+        }
+        clac(2,3);
+
+        const per ={
+            firstname: 'Victor',
+            age: 23,
+        }
+        document.getElementById('ffs').innerHTML = `My name is ${per.firstname} and I am ${per.age} years old`
+        var he = new Date();
+        var response ="";
+        var age = 10;
+        var name = 'Vic'
+        var se = he.getDate();  
+        var de = he.getHours();// Call the method getDate() with parentheses
+        if(age <= 18){
+           response =`hello ${name} your young`; 
+        }
+        else{
+            response = `hello ${name} welcome`; 
+        }
+        document.getElementById('ff').innerHTML = response;  // Correct innerhtml to innerHTML
+        const cars = ["BMW", "Volvo", "Saab", "Ford"];
+        var text = "";
+        for(var i=0; i<cars.length; i++){
+            text += cars[i] + "<br>";
+        }
+        document.getElementById('demo').innerHTML = text;
+        var r =0;
+        var text = "";
+        while(r<10){
+            text += r + "<br>";
+            r++;
+        }
+        document.getElementById('dem').innerHTML = text;
+
+    </script>
+</body>
+</html>
